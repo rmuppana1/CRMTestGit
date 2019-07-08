@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRM Application Test Suite" duration-ms="31365" started-at="2019-07-01T09:59:49Z" finished-at="2019-07-01T10:00:20Z">
+    <groups>
+      <group name="prerequisites">
+        <method signature="LoginPageTest.testLogin()[pri:1, instance:com.crm.testcases.LoginPageTest@3f4d3d]" name="testLogin" class="com.crm.testcases.LoginPageTest"/>
+      </group> <!-- prerequisites -->
+    </groups>
+    <test name="Regression Test" duration-ms="31365" started-at="2019-07-01T09:59:49Z" finished-at="2019-07-01T10:00:20Z">
+      <class name="com.crm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.testcases.LoginPageTest@3f4d3d]" name="setUp" is-config="true" duration-ms="5107" started-at="2019-07-01T09:59:49Z" finished-at="2019-07-01T09:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.testcases.ViewActivitiesPageTest@13b32d7]" name="setup" is-config="true" duration-ms="251" started-at="2019-07-01T09:59:54Z" finished-at="2019-07-01T09:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.crm.testcases.LoginPageTest@3f4d3d]" name="testLogin" duration-ms="1394" started-at="2019-07-01T09:59:54Z" finished-at="2019-07-01T09:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.testcases.LoginPageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="6201" started-at="2019-07-01T10:00:14Z" finished-at="2019-07-01T10:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.testcases.LoginPageTest -->
+      <class name="com.crm.testcases.CampaignPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.testcases.CampaignPageTest@42a311]" name="setup" is-config="true" duration-ms="16" started-at="2019-07-01T09:59:56Z" finished-at="2019-07-01T09:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickCampaignLinkTest()[pri:2, instance:com.crm.testcases.CampaignPageTest@42a311]" name="clickCampaignLinkTest" duration-ms="584" depends-on-groups="prerequisites" started-at="2019-07-01T09:59:56Z" finished-at="2019-07-01T09:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCampaignLinkTest -->
+        <test-method status="PASS" signature="validateCreateCampaign(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.crm.testcases.CampaignPageTest@42a311]" name="validateCreateCampaign" duration-ms="576" started-at="2019-07-01T09:59:56Z" data-provider="getCRMTestData" depends-on-methods="com.crm.testcases.CampaignPageTest.clickCampaignLinkTest" finished-at="2019-07-01T09:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rsvp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Campaign 2.73]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6/24/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7/24/2019]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Campaign V2.6 Description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCampaign -->
+        <test-method status="PASS" signature="searchCampaignTest()[pri:4, instance:com.crm.testcases.CampaignPageTest@42a311]" name="searchCampaignTest" duration-ms="4438" started-at="2019-07-01T09:59:57Z" depends-on-methods="com.crm.testcases.CampaignPageTest.clickCampaignLinkTest" finished-at="2019-07-01T10:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCampaignTest -->
+      </class> <!-- com.crm.testcases.CampaignPageTest -->
+      <class name="com.crm.testcases.ViewActivitiesPageTest">
+        <test-method status="PASS" signature="clickViewActivitiesLinkTest()[pri:5, instance:com.crm.testcases.ViewActivitiesPageTest@13b32d7]" name="clickViewActivitiesLinkTest" duration-ms="12755" depends-on-groups="prerequisites" started-at="2019-07-01T10:00:02Z" finished-at="2019-07-01T10:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewActivitiesLinkTest -->
+      </class> <!-- com.crm.testcases.ViewActivitiesPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- CRM Application Test Suite -->
+</testng-results>

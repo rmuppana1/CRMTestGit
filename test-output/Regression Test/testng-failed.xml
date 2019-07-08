@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="com.crm.testcases.CampaignPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchCampaignTest"/>
+        </methods>
+      </class> <!-- com.crm.testcases.CampaignPageTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->
